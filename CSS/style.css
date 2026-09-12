@@ -1,5 +1,5 @@
 /* COLOR PROPERTIES */
-h1{
+/* h1{
     color:red;
 }
 p{
@@ -9,7 +9,21 @@ button{
     color: rgb(95, 67, 30);
     background-color: chocolate;
 }
-body{
+ body{
     /* background-color: rgb(240, 210,100); */
-    background-color: #FFFF00;
+    /* background-color: #FFFF00; */
+/* } */  
+
+/* selectors */
+
+/* *{
+    color: rgb(131, 95, 52);
+} */
+
+#hello{
+    color: brown;
+}
+.button{
+color: cadetblue;
+background-color: chartreuse;
 }
