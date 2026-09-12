@@ -6,4 +6,8 @@ p{
 }
 button{
     color: rgb(95, 67, 30);
+    background-color: chocolate;
+}
+body{
+    background-color: beige;
 }
