@@ -1,4 +1,4 @@
-/* COLOR PROPERTIES */
+             /* COLOR PROPERTIES */
 /* h1{
     color:red;
 }
@@ -20,10 +20,15 @@ button{
     color: rgb(131, 95, 52);
 } */
 
-#hello{
+/* #hello{
     color: brown;
 }
 .button{
 color: cadetblue;
 background-color: chartreuse;
-}
+} */
+
+                        /* TEXT PROPERTIES */
+    p{
+        text-align: left;
+    }
