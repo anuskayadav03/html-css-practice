@@ -87,17 +87,32 @@ background-color: chartreuse;
         background-color: rgb(134, 29, 89);
     } */
 
-    div{
+    /* div{
         height: 50px;
         width: 50px;
         background-color: pink;
     }
-    /* @media (width:600px) {
+    @media (width:600px) {
         div{
         background-color: red;}
-    } */
+    }
      @media (min-width:600px) and (max-width:1000px){
         div{
         background-color: green;
     }
+    } */
+
+    div{
+        height: 100PX;
+        width: 100PX;
+        background-color: aquamarine;
+        border: 2px solid black;
+
+    }
+
+    div:hover{
+        background-color: red;
+    }
+    div:active{
+        background-color: pink;
     }
