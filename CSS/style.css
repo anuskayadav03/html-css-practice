@@ -47,6 +47,29 @@ background-color: chartreuse;
         font-weight: 900;
         font-size: xx-large;
     } */
-
-
-    
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+    #container{
+     width: 800%;
+     height: 200px;
+     display: flex;
+    }
+    #box1{
+        background-color: aqua;
+    }
+      #box2{
+        background-color: rgb(64, 184, 38);
+    }
+      #box3{
+        background-color: rgb(195, 154, 66);
+    }
+      #box4{
+        background-color: rgb(127, 70, 160);
+    }
+      #box5{
+        background-color: rgb(134, 29, 89);
+    }
