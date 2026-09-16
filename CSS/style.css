@@ -50,8 +50,8 @@ background-color: chartreuse;
 
 
 div{
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     display: inline-block;
     border: 2px solid black;
 }
@@ -60,20 +60,24 @@ div{
      height: 600px;
      display: flex;
      flex-direction:row;
-     flex-wrap: wrap;
+     /* flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    align-content: center; */
     }
     #box1{
         background-color: aqua;
+        /* align-self: baseline; */
     }
       #box2{
         background-color: rgb(64, 184, 38);
         height: 200px;
+        /* align-self: flex-start; */
+        flex-shrink: 0;
     }
       #box3{
         background-color: rgb(195, 154, 66);
-        height: 80px;
+        height: 90px;
     }
       #box4{
         background-color: rgb(127, 70, 160);
