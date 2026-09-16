@@ -57,6 +57,7 @@ div{
      width: 800%;
      height: 200px;
      display: flex;
+     flex-direction:row-reverse;
     }
     #box1{
         background-color: aqua;
