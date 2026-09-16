@@ -86,3 +86,13 @@ background-color: chartreuse;
       #box5{
         background-color: rgb(134, 29, 89);
     } */
+
+    div{
+        height: 50px;
+        width: 50px;
+        background-color: pink;
+    }
+    @media (width:600px) {
+        div{
+        background-color: red;}
+    }
