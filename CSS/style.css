@@ -50,26 +50,30 @@ background-color: chartreuse;
 
 
 div{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 150px;
     display: inline-block;
     border: 2px solid black;
 }
     #container{
-     width: 80%;
-     height: 500px;
+     width: 600px;
+     height: 600px;
      display: flex;
-     flex-direction:column;
-    justify-content: flex-end;
+     flex-direction:row;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
     #box1{
         background-color: aqua;
     }
       #box2{
         background-color: rgb(64, 184, 38);
+        height: 200px;
     }
       #box3{
         background-color: rgb(195, 154, 66);
+        height: 80px;
     }
       #box4{
         background-color: rgb(127, 70, 160);
