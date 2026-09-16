@@ -57,10 +57,10 @@ div{
 }
     #container{
      width: 80%;
-     height: 100px;
+     height: 500px;
      display: flex;
-     /* flex-direction:row; */
-    justify-content: space-evenly;
+     flex-direction:column;
+    justify-content: flex-end;
     }
     #box1{
         background-color: aqua;
